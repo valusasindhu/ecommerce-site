@@ -1,0 +1,44 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;      
+  background-color: #f0f0f0; 
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+}
+
+.carousel-image {
+  width: 100%;            
+  object-fit: cover; 
+   opacity: 1;
+  animation: fadeIn 3s;
+}
+
+.nav-btn {
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0 15px;
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0,0,0,0.8);
+   scroll-behavior: smooth;
+}
+
+.nav-btn:first-of-type {
+  left: 10px;   
+}
+
+.nav-btn:last-of-type {
+  right: 10px;   
+}
