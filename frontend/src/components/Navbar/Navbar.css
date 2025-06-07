@@ -123,3 +123,8 @@
   width: 20px;
   height: 20px;
 }
+@media (max-width:900px) {
+  .navbar-search{
+    display: none;
+  }
+}

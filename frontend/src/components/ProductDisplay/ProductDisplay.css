@@ -14,7 +14,7 @@
   padding: 10px;
   border-radius: 8px;
   transition: transform 0.3s ease;
-  height: 50vh;
+  height: 60vh;
 }
 
 .product-card:hover {
